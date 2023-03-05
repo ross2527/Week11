@@ -1,19 +1,3 @@
-// console.log($("body"));
-
-// let p = $("test");
-// let div = $("Game");
-// let ul = $("ul");
-
-// console.log(p);
-// console.log(div);
-// console.log(ul);
-
-// console.log(p.text());
-// p.text("New Text")
-
-// // $("input").val("New Value");
-
-// $("input").attr("placeholder", "Placeholder Text");
 
 let boardContainer=$("#Board");
 let messageContainer=$("#Message");
@@ -25,6 +9,14 @@ let message="Lets Play";
 let turn= 1;
 
 let gameOver= false;
+
+let playerO = 'O';
+let playerX = 'X';
+
+let winnerBanner = $('#winner');
+//to start w/O
+let currentPlayer = playerO;
+
 
 $(function() { 
     renderBoard()
@@ -117,3 +109,7 @@ function onResetClick(){
 
 }
 
+// console.log(checkWinner)
+
+//   // Check each winning combination
+ 
