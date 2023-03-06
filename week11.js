@@ -64,7 +64,9 @@ function checkWinner() {
             console.log("winning combo 2nd loop", winningCombo[index][index2]);
             // comparison of combinations to squares that have been played
         }
-        
+        // if (board[]=== winningCombo){
+        //     gameOver=true
+        //     message="Game is over"
         // second loop - End
         
     }
@@ -81,8 +83,9 @@ function onSquareClick(index){
         board[index]= "O"
         console.log(board[index]);
     }
+ 
     // check if game is over --- render the board, game is over, we don't want the event listeners
-    // if (board[1]==="X"){
+    // if (board[1, 4, 7]==="X"){
     //     gameOver=true
     //     message="Game is over"
     // } 

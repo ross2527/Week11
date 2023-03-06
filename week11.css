@@ -13,44 +13,12 @@
 
 }
 
-/* #game-board {
-    width: 300px;
-    height: 300px;
-    border-collapse: collapse;
-  }
-  
-  #game-board td {
-    width: 100px;
-    height: 100px;
-    border: 1px solid #81528a;
-    text-align: center;
-    vertical-align: middle;
-    font-size: 60px;
-    font-weight: bold;
-    cursor: pointer;
-  }
-  
-  #game-board td:hover {
-    background-color: #c3b7c8;
-  }
-  
-  .x-symbol {
-    color: blue;
-  }
-  
-  .o-symbol {
-    color: red;
-  } */
-  
 
 h1 {
     color: blueviolet;
     font-size: 30px;
 }
 
-/* #Background{
-    color: darkmagenta;
-} */
 
 p1{
     color: blueviolet;
